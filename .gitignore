@@ -1,0 +1,12 @@
+node_modules/
+*.log
+npm-debug.log*
+coverage/
+.nyc_output/
+.npm
+.eslintcache
+*.tgz
+.env
+launch.json
+settings.json
+test/_tmp_*.json
