@@ -1,0 +1,7 @@
+{
+  "name": "pipe-pressure-drop",
+  "version": "0.1.0",
+  "description": "Calculates pressure drop in a water pipe",
+  "type": "module",
+  "license": "MIT"
+}
