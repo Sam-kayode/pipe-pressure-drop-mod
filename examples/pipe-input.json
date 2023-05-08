@@ -1,0 +1,8 @@
+{
+  "density": 62.36,
+  "dynamicViscosity": 0.0007536,
+  "diameter": 2,
+  "flowRate": 0.2,
+  "pipeLength": 200,
+  "roughness": 0.000007
+}
