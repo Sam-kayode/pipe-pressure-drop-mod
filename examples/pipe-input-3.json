@@ -1,0 +1,8 @@
+{
+  "density": 62.4,
+  "dynamicViscosity": 0.001,
+  "diameter": 1,
+  "flowRate": 0.001,
+  "pipeLength": 100,
+  "pumpEfficiency": 0.75
+}
