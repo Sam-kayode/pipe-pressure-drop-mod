@@ -3,5 +3,11 @@
   "version": "0.1.0",
   "description": "Calculates pressure drop in a water pipe",
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --timeout 1500000 'test/**/*.test.js'"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
