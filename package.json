@@ -5,7 +5,16 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --timeout 1500000 'test/**/*.test.js'"
+    "test":              "mocha --timeout 1500000 'test/**/*.test.js'",
+    "test:units":        "mocha --timeout 1500000 'test/units.test.js'",
+    "test:fluid":        "mocha --timeout 1500000 'test/FluidProperties.test.js'",
+    "test:geometry":     "mocha --timeout 1500000 'test/PipeGeometry.test.js'",
+    "test:flow":         "mocha --timeout 1500000 'test/FlowCharacteristics.test.js'",
+    "test:friction":     "mocha --timeout 1500000 'test/FrictionFactor.test.js'",
+    "test:drop":         "mocha --timeout 1500000 'test/PressureDrop.test.js'",
+    "test:power":        "mocha --timeout 1500000 'test/PumpingPower.test.js'",
+    "test:integration":  "mocha --timeout 1500000 'test/PipePressureDrop.test.js'",
+    "test:stress":       "mocha --timeout 1800000 'test/stress.test.js'"
   },
   "devDependencies": {
     "mocha": "^10.2.0"
