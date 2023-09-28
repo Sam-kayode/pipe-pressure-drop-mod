@@ -17,6 +17,6 @@
     "test:stress":       "mocha --timeout 1800000 'test/stress.test.js'"
   },
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "mocha": "^11.1.0"
   }
 }
