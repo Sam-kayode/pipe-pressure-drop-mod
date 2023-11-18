@@ -1,9 +1,9 @@
 {
   "name": "pipe-pressure-drop",
   "version": "0.1.0",
-  "description": "Calculates pressure drop in a water pipe",
+  "description": "Calculates pressure drop and pumping power in a stainless steel water pipe (US customary units). Modular architecture: units, fluid properties, pipe geometry, flow characteristics, friction factor, pressure drop, and pumping power.",
   "type": "module",
-  "license": "MIT",
+  "main": "src/PipePressureDrop.js",
   "scripts": {
     "test":              "mocha --timeout 1500000 'test/**/*.test.js'",
     "test:units":        "mocha --timeout 1500000 'test/units.test.js'",
@@ -16,6 +16,12 @@
     "test:integration":  "mocha --timeout 1500000 'test/PipePressureDrop.test.js'",
     "test:stress":       "mocha --timeout 1800000 'test/stress.test.js'"
   },
+  "keywords": [
+    "pipe", "pressure-drop", "pumping-power", "darcy-weisbach",
+    "colebrook-white", "churchill", "moody", "fluid-mechanics",
+    "reynolds-number", "friction-factor", "US-customary"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^11.1.0"
   }
